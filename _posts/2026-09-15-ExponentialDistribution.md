@@ -118,8 +118,9 @@ E[X]&=\int_{-\infty}^{\infty}xf_X(x)dx\\
 &=\int_{0}^{\infty}x\lambda e^{-\lambda x}dx\\
 \end{aligned}
 $$
-Define: $ u=x, dv=\lambda e^{-\lambda x}dx $
-then $v=-e^{-\lambda x}$
+
+Define: $ u=x, dv=\lambda e^{-\lambda x}dx $, $v=-e^{-\lambda x}$
+
 then:
 $$
 \begin{aligned}

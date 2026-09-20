@@ -24,7 +24,7 @@ e^{
 \right).
 $$
 
-Here, \(\mu\) is the mean and \(\sigma^2\) is the variance.
+Here, $\mu$ is the mean and $\sigma^2$ is the variance.
 
 ### 2D Gaussian
 
@@ -74,7 +74,7 @@ p(\mathbf x)
 \right].
 $$
 
-Here, \(|\Sigma|\) is the determinant of the covariance matrix.
+Here, $ |\Sigma| $ is the determinant of the covariance matrix.
 
 If the two dimensions are independent and have the same variance,
 
@@ -95,7 +95,7 @@ $$
 
 This simplified form is commonly used for Gaussian smoothing in image processing.
 
-### \(d\)-dimensional Gaussian
+### d-dimensional Gaussian
 
 For
 
@@ -122,13 +122,13 @@ p(\mathbf x)
 \right]
 $$
 
-If the \(d\) variables are **independent** and all have the **same variance** \(\sigma^2\), then the covariance matrix becomes
+If the $d$ variables are **independent** and all have the **same variance** $\sigma^2$, then the covariance matrix becomes
 
 $$
 \Sigma=\sigma^2 I,
 $$
 
-where \(I\) is the \(d\times d\) identity matrix.
+where $I$ is the $d\times d$ identity matrix.
 
 So
 
@@ -142,7 +142,7 @@ $$
 |\Sigma|=(\sigma^2)^d.
 $$
 
-Substituting these into the general \(d\)-dimensional Gaussian formula gives
+Substituting these into the general $d$-dimensional Gaussian formula gives
 
 $$
 \boxed{
@@ -192,7 +192,7 @@ This is called an **isotropic Gaussian** because the variance is the same in eve
 
 
 
-Also, because the variables are independent, the joint density can be written as a product of \(d\) one-dimensional Gaussians:
+Also, because the variables are independent, the joint density can be written as a product of $d$ one-dimensional Gaussians:
 
 $$
 p(\mathbf x)
