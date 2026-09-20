@@ -21,7 +21,7 @@ $$
 X \sim \operatorname{Exp}(\lambda)
 $$
 
-where $\lambda>0$ is called the **rate parameter**.
+where $\lambda>0$ is called the **rate parameter**, $\lambda$ means roughly how frequently events occur.
 
 ## PDF
 
@@ -109,7 +109,29 @@ $$
 \operatorname{Var}(X)=\frac{1}{\lambda^2}.
 $$
 
-So $\lambda$ means roughly **how frequently events occur**. A larger $\lambda$ means events happen more frequently, so the expected waiting time is shorter.
+Proof:
+
+$$
+\begin{aligned}
+E[X]&=\int_{-\infty}^{\infty}xf_X(x)dx\\
+&=\int_{0}^{\infty}xf_X(x)dx\\
+&=\int_{0}^{\infty}x\lambda e^{-\lambda x}dx\\
+\end{aligned}
+$$
+Define: $ u=x, dv=\lambda e^{-\lambda x}dx $
+then $v=-e^{-\lambda x}$
+then:
+$$
+\begin{aligned}
+&=\int_{0}^{\infty}x\lambda e^{-\lambda x}dx\\
+&=uv-\int_{0}^{\infty}vdu\\
+&=-xe^{-\lambda x}-\int_{0}^{\infty}-e^{-\lambda x}dx\\
+&=\frac{1}{\lambda}
+\end{aligned}
+$$
+
+
+A larger $\lambda$ means events happen more frequently, so the expected waiting time is shorter.
 
 For example, if customers arrive at an average rate of
 
