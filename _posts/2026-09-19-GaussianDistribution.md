@@ -1,9 +1,9 @@
 ---
 title: Gaussian Distribution
 description: The formulas of different dimensions of Gaussian distribution
-date: 2026-09-14 18:00:00
+date: 2026-09-19 18:00:00
 categories: [Notes]
-tags: [Machine Learning]
+tags: [Probablity Theory]
 math: true
 ---
 ### 1D Gaussian
