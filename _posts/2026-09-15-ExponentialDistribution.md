@@ -3,7 +3,7 @@ title: Exponential Distribution
 description: An introduction to the exponential distribution, covering its PDF, CDF, mean, variance, and the memoryless property.
 date: 2026-09-15 14:00:00
 categories: [Notes]
-tags: [Probablity Theory]
+tags: [Probability Theory]
 math: true
 ---
 ## Definition

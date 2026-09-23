@@ -3,7 +3,7 @@ title: Gaussian Distribution
 description: The formulas of different dimensions of Gaussian distribution
 date: 2026-09-19 18:00:00
 categories: [Notes]
-tags: [Probablity Theory]
+tags: [Probability Theory]
 math: true
 ---
 ### 1D Gaussian
@@ -74,7 +74,7 @@ p(\mathbf x)
 \right].
 $$
 
-Here, $ |\Sigma| $ is the determinant of the covariance matrix.
+Here, $\Sigma$ is the determinant of the covariance matrix.
 
 If the two dimensions are independent and have the same variance,
 
